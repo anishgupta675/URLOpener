@@ -1,0 +1,11 @@
+<!DOCTYPE resources [
+]>
+<resources>
+    <string name="app_name">URLOpener</string>
+    <string name="prompt">&#160;</string>
+    <string name="run">GO</string>
+    <string name="google">G</string>
+    <string name="yahoo">Y</string>
+    <string name="amazon">A</string>
+    <string name="flipkart">F</string>
+</resources>
