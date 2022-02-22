@@ -31,45 +31,49 @@
         app:layout_constraintStart_toEndOf="@+id/prompt"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/amazon"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="4dp"
-        android:text="@string/amazon"
+        app:srcCompat="@drawable/amazon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+        app:layout_constraintTop_toBottomOf="@+id/prompt"
+        android:contentDescription="@string/todo1" />
 
-    <Button
+    <ImageButton
         android:id="@+id/yahoo"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="4dp"
-        android:text="@string/yahoo"
+        app:srcCompat="@drawable/yahoo"
         app:layout_constraintEnd_toStartOf="@+id/amazon"
-        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+        app:layout_constraintTop_toBottomOf="@+id/prompt"
+        android:contentDescription="@string/todo2" />
 
-    <Button
+    <ImageButton
         android:id="@+id/google"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="4dp"
-        android:text="@string/google"
+        app:srcCompat="@drawable/google"
         app:layout_constraintEnd_toStartOf="@+id/yahoo"
-        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+        app:layout_constraintTop_toBottomOf="@+id/prompt"
+        android:contentDescription="@string/todo3" />
 
-    <Button
+    <ImageButton
         android:id="@+id/flipkart"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="4dp"
-        android:text="@string/flipkart"
+        app:srcCompat="@drawable/flipkart"
         app:layout_constraintStart_toEndOf="@+id/amazon"
-        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+        app:layout_constraintTop_toBottomOf="@+id/prompt"
+        android:contentDescription="@string/todo4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
